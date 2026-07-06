@@ -4,5 +4,5 @@
    bootstrap.zsh
    install.sh
 # pycache and virtual environments
-   __pycache__/
-   venv/
+   webex/__pycache__/
+   webex/venv/
