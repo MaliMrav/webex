@@ -1,7 +1,7 @@
 # macOS
    .DS_Store
 # Bootstrap and installation scripts
-   bootstrap.zsh
+   bootstrap.*
    install.sh
 # pycache and virtual environments
    webex/__pycache__/
