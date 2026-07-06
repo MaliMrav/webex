@@ -1,0 +1,8 @@
+# macOS
+   .DS_Store
+# Bootstrap and installation scripts
+   bootstrap.zsh
+   install.sh
+# pycache and virtual environments
+   __pycache__/
+   venv/
