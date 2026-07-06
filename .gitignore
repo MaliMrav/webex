@@ -1,13 +1,13 @@
 # macOS
    .DS_Store
 # Bootstrap and installation scripts
-   bootstrap.*
+   bootstrap.zsh
    install.sh
 # pycache and virtual environments
    webex/__pycache__/
    webex/venv/
 # Output Files
-   ouput.*
+   output.*
 # Build artifacts
    build/
    dist/
