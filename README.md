@@ -29,10 +29,12 @@ Clone the repository and install dependencies:
 
 ```bash
 pip install requests
+```
 
 Run directly:
 ```bash
 python -m webex fetch --help
+```
 
 **🚀 Usage**
 
@@ -45,6 +47,7 @@ python -m webex fetch \\
 \--end 10 \\  
 \--pattern "example" \\  
 \--output output.tsv
+```
 
 **📥 How it works**
 
@@ -78,6 +81,7 @@ python -m webex fetch \\
 \--end 5 \\  
 \--pattern "example" \\  
 \--output results.tsv
+```
 
 **🛣️ Roadmap**
 
