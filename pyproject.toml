@@ -3,3 +3,21 @@
 # Copyright (c) 2026 Vladimir Lekic
 #
 ###############################################################################
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "webex"
+version = "0.1.0"
+description = "Minimal composable web extraction pipeline CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests",
+]
+
+
+[project.scripts]
+webex = "webex.cli:main"
