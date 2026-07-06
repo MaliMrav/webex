@@ -30,10 +30,15 @@ Clone the repository and install dependencies:
 ```bash
 pip install requests
 
+Run directly:
+```bash
+python -m webex fetch --help
+
 **🚀 Usage**
 
-**Basic example**
+*Basic example*
 
+```bash
 python -m webex fetch \\  
 \--url-template "<https://example.com/page/{index}>" \\  
 \--start 1 \\  
@@ -66,7 +71,7 @@ label extracted
 3 ...
 
 **🧩 Example**
-
+```bash
 python -m webex fetch \\  
 \--url-template "<https://example.com/page/{index:02d}>" \\  
 \--start 1 \\  
